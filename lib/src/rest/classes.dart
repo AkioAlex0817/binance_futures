@@ -321,7 +321,7 @@ class LongShortRatio {
         longShortRatio = double.parse(m['longShortRatio']),
         longAccount = double.parse(m['longAccount']),
         shortAccount = double.parse(m['shortAccount']),
-        timestamp = double.parse(m['timestamp']);
+        timestamp = double.parse(m['timestamp'].toString());
 }
 
 class TakerLongShortRatio {
@@ -334,7 +334,7 @@ class TakerLongShortRatio {
       : buySellRatio = double.parse(m['buySellRatio']),
         buyVol = double.parse(m['buyVol']),
         sellVol = double.parse(m['sellVol']),
-        timestamp = double.parse(m['timestamp']);
+        timestamp = double.parse(m['timestamp'].toString());
 }
 
 class IndexAsset {
